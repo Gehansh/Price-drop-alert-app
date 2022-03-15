@@ -46,8 +46,8 @@ def check_price(url,mail,prize):
 
 
 def alert_system(product, link, mail):
-    email_id = 'inertiaexample@gmail.com'
-    email_pass = 'insertf12'
+    email_id = 'test@gmail.com'
+    email_pass = 'test1234'
 
     msg = EmailMessage()
     msg['Subject'] = 'Price Drop Alert'
